@@ -21,3 +21,10 @@ szam2 = int(szam2)
 szam3 = int(szam3)
 legnagyobb = max(szam1, szam2, szam3)
 print(f"A legnagyobb szám: {legnagyobb}") """
+
+#4
+""" n = input("Adj meg egy számot: ")
+n = int(n)
+print(f"A számok 1-től {n}-ig:")
+for i in range(1, n + 1):
+    print(i, end = " ") """
