@@ -8,11 +8,14 @@ print(f"A két szám összege: {szam1 + szam2}") """
 
 #2
 """ print("2. feladat")
-szam = input("Adj meg egy számot: ")
-if int(szam) % 2 == 0:
-    print("Páros szám")
+szam = int(input("Adj meg egy számot: "))
+if(szam != 0):
+    if szam % 2 == 0:
+        print("Páros szám")  
+    else:
+        print("Páratlan szám")
 else:
-    print("Páratlan szám") """
+    print("A szám nem lehet nulla") """
 
 #3
 """ print("3. feladat")
@@ -33,8 +36,12 @@ print(f"A számok 1-től {n}-ig:")
 for i in range(1, n + 1):
     print(i, end = " ") """
 
+
 #5
-""" print("\n 5. feladat")
+""" print("\n 6. feladat") """
+
+#6
+""" print("\n 6. feladat")
 
 szamok_listaja = []
 db = 5
@@ -52,3 +59,19 @@ for i in range(db):
 osszeg = sum(szamok_listaja)
 atlag = osszeg / len(szamok_listaja)
 print(f"A számok átlaga: {atlag:.1f}") """
+
+#7
+""" print("\n 7. feladat")
+szlista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+legnagyobb = max(szlista)
+legkisebb = min(szlista)
+print(f"A legnagyobb elem: {legnagyobb}")
+print(f"A legkisebb elem: {legkisebb}") """
+
+#8
+lista = [10, 6, 8, 68, 7, 11, 76, 84, 51]
+szam = int(input ("Adj meg egy számot: "))
+if szam in lista:
+    print("A szám megtalálható a listában")
+else:print("A szám nincs a listában")
+print(f"A számok listája: {lista}")
