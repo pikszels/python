@@ -1,4 +1,4 @@
-print("\n 6. feladat")
+print("6. feladat")
 
 szamok_listaja = []
 db = 5
