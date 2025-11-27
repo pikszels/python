@@ -63,7 +63,6 @@ print(f"A számok összege: {ossz}") """
 szamok_listaja = []
 db = 5
 
-# Kérj be 5 számot egy ciklus segítségével
 for i in range(db):
     while True:
         try:
@@ -95,7 +94,10 @@ else:print("A szám nincs a listában")
 print(f"A számok listája: {lista}") """
 
 #9
-""" lista = [1,2,3,4,5,6,7,8,9]
+print("\n 9. feladat")
+lista = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 lista2 = []
 for i in range(len(lista)):
-    print("hablabda") """
+    if lista[i] % 2 == 0:
+        lista2.append(lista[i])
+print(f"A páros számok listája:{lista2}")
