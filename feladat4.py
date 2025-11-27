@@ -1,4 +1,4 @@
-print("\n 4. feladat")
+print("4. feladat")
 
 n = input("Adj meg egy számot: ")
 n = int(n)
