@@ -1,4 +1,4 @@
-print("\n 8. feladat")
+print("8. feladat")
 
 lista = [10, 6, 8, 68, 7, 11, 76, 84, 51]
 szam = int(input ("Adj meg egy számot: "))
