@@ -28,6 +28,18 @@ szam3 = int(szam3)
 legnagyobb = max(szam1, szam2, szam3)
 print(f"A legnagyobb szám: {legnagyobb}") """
 
+""" lista = []
+id = 0
+for i in range(3):
+    lista.append(int(input(f"Add meg az {i}. számot: ")))
+max = lista[0]
+for i in range(3):
+    if lista[i] > max:
+        max = lista[i]
+        id = i+1 
+
+print(f"A legnagyobb szám a {max}, ami a(z) {id}. helyen van a listában.")"""
+
 #4
 """ print("\n 4. feladat")
 n = input("Adj meg egy számot: ")
@@ -38,7 +50,12 @@ for i in range(1, n + 1):
 
 
 #5
-""" print("\n 6. feladat") """
+""" print("\n 5. feladat")
+szam = int(input("Kérem N értékét: "))
+ossz = 0
+for i in range(1, szam + 1):
+    ossz = ossz + i
+print(f"A számok összege: {ossz}") """
 
 #6
 """ print("\n 6. feladat")
@@ -76,3 +93,9 @@ if szam in lista:
     print("A szám megtalálható a listában")
 else:print("A szám nincs a listában")
 print(f"A számok listája: {lista}") """
+
+#9
+""" lista = [1,2,3,4,5,6,7,8,9]
+lista2 = []
+for i in range(len(lista)):
+    print("hablabda") """
