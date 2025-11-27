@@ -1,4 +1,4 @@
-print("\n 5. feladat")
+print("5. feladat")
 
 szam = int(input("Kérem N értékét: "))
 ossz = 0
